@@ -1,0 +1,106 @@
+
+ 
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.landing{
+    background-image: url(IMAGES/Internship.jpg);
+    background-size: cover;
+    background-position: center;
+    height:350vh;
+
+}
+header a{
+    text-decoration: none;
+    color:black
+}
+header{
+    display: flex;
+    padding: 1em;
+}
+
+nav{
+    flex: 3;
+    display: flex;
+}
+#logo{
+    flex: 3;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+nav a{
+    flex: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+}
+nav a:hover{
+    color: white;
+; 
+}
+.div{
+    text-align: center;
+}
+.para{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.para >div{
+    text-align: center;
+    font-size: 1.56em;
+    font-weight: lighter;
+}
+#name{
+    border: 1px solid black;
+    text-align: center;
+    padding: 100px;
+    margin-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(IMAGES/web.jpeg); 
+    background-repeat: no-repeat;
+    background-size: 340px 300px;
+}
+#id{
+    border: 1px solid black;
+    text-align: center;
+    padding: 100px;
+    margin-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(IMAGES/app.jpeg); 
+    background-repeat: no-repeat;
+    background-size: 340px 300px;
+}
+#java{
+    border: 1px solid black;
+    text-align: center;
+    padding: 100px;
+    margin-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(IMAGES/java.jpeg); 
+    background-repeat: no-repeat;
+    background-size: 340px 300px;
+}
+#python{
+    border: 1px solid black;
+    text-align: center;
+    padding: 100px;
+    margin-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(IMAGES/python.jpeg); 
+    background-repeat: no-repeat;
+    background-size: 340px 300px;
+}
+.btn{
+    width: 10vw;
+    margin-top: .75em;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1em;
+    padding-top: 10px;
+
+}
